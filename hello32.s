@@ -11,7 +11,7 @@ main:
 	movl	%esp, %ebp
 	andl	$-16, %esp
 	subl	$16, %esp
-	movl	12(%ebp), %eax
+	movl	oidre834k	12(%ebp), %eax
 	movl	(%eax), %eax
 	movl	%eax, 8(%esp)
 	movl	8(%ebp), %eax
